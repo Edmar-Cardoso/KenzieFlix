@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    height: 650px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color: black;
+    width: 80%;
+    height: 90%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.boxmother{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{   
+    width: 165px;
+    margin-bottom: 26px;
+
+}
+
+.subtitulo{
+     width: 300px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.main-list{
+    background-color: black;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{ width: 160px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    width: 160px;
+    height: 179px;
+}
+
+figure{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+figure:hover{
+    border: 1px white solid;
+}
+
+figure .zoom{
+    max-width: 100%;
+    max-height: 100%;
+    -moz-transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    transition: linear 0.2s;
+}
+
+figure:hover .zoom{
+    -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.add{
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.4;
+}
+
+.add:hover{
+    opacity: 1.5;
+}
+
+figcaption{
+    display: none;
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.button-end{
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: medium;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.button-end:hover{
+    background-color: white;
+    color: black;
+}
